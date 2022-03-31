@@ -13,6 +13,14 @@ https://github.com/Si-max/Plan-B.git
 
 Navigate to the directory
 
+run aws configure
+
+export AWS_ACCESS_KEY_ID="anaccesskey"
+
+export AWS_SECRET_ACCESS_KEY="asecretkey"
+
+export AWS_REGION="us-west-2"
+
 run terraform init 
 
 The terraform init command is used to initialize a working directory containing Terraform configuration files.
