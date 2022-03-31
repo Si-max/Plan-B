@@ -11,3 +11,16 @@ You must use either Terraform, AWS CloudFormation or AWS CDK for all of the foll
 Clone the repo
 https://github.com/Si-max/Plan-B.git
 
+Navigate to the directory
+
+run terraform init 
+
+The terraform init command is used to initialize a working directory containing Terraform configuration files.
+
+run terraform plan
+
+The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+run terraform apply
+
+The terraform apply command executes the actions proposed in a Terraform plan.
