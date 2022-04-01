@@ -9,28 +9,39 @@ You must use either Terraform, AWS CloudFormation or AWS CDK for all of the foll
 
 # How to get running
 Clone the repo
-https://github.com/Si-max/Plan-B.git
-
+```
+git clone https://github.com/Si-max/Plan-B.git
+```
 Navigate to the directory
 
-run aws configure
+In this sample, i used AWS you can configure the keys by running the following
 
 run:
 
+```
 export AWS_ACCESS_KEY_ID="anaccesskey"
-
+```
+```
 export AWS_SECRET_ACCESS_KEY="asecretkey"
-
+```
+```
 export AWS_REGION="us-west-2"
+```
 
-run terraform init 
+[Install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) then 
 
-The terraform init command is used to initialize a working directory containing Terraform configuration files.
+Initialize terraform in the working direcory run:
+```
+terraform init 
+```
 
-run terraform plan
+Preview resources and changes to be made or created in the infrastructure run:
 
-The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+```
+terraform plan
+```
 
-run terraform apply
-
-The terraform apply command executes the actions proposed in a Terraform plan.
+Create Infrastructure
+```
+terraform apply
+```
